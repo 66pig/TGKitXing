@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TGKitXing_Example' do
+  pod 'TGKitXing', :path => '../'
+
+  target 'TGKitXing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

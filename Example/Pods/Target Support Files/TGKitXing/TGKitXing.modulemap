@@ -1,0 +1,6 @@
+framework module TGKitXing {
+  umbrella header "TGKitXing-umbrella.h"
+
+  export *
+  module * { export * }
+}

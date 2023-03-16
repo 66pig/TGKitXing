@@ -1,0 +1,16 @@
+PODS:
+  - TGKitXing (0.1.0)
+
+DEPENDENCIES:
+  - TGKitXing (from `../`)
+
+EXTERNAL SOURCES:
+  TGKitXing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TGKitXing: 915a0dbd5497fcbcf48738e31c3e0279d432523a
+
+PODFILE CHECKSUM: 67a56fdbbe7155a854af569af9d6cfe9b2d5fa0a
+
+COCOAPODS: 1.11.2

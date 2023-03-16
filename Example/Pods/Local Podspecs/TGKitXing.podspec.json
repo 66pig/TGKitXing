@@ -1,0 +1,22 @@
+{
+  "name": "TGKitXing",
+  "version": "0.1.0",
+  "summary": "A short description of TGKitXing.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/“猪猪侠”/TGKitXing",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "“猪猪侠”": "21065238@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/“猪猪侠”/TGKitXing.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TGKitXing/Classes/**/*"
+}
