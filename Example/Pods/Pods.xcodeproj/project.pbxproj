@@ -7,80 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE8A1EBDC80C5448E10B7CAC1E4D01F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657DEBB7F8CB0BE9FB9B076971EF3E4 /* ReplaceMe.swift */; };
+		09BBB6DE07B8B1BD98010852958B2F0C /* TGTableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE537C28D3719B44B530E3D7F1A44A52 /* TGTableLayout.swift */; };
+		0AF9E1265994AEB7FF7F3499C666EBD9 /* TGLayoutPos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C823B8B94B5AFA11A6BFEF2D468088 /* TGLayoutPos.swift */; };
+		2A9906B85ACF133F8910D52305AC44F6 /* TangramKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A51F097B3B9000C682EB4303280D06 /* TangramKit.swift */; };
+		3E131D5E20900B5C0A0D21442AB880F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4A59BDCFBFAF0126B6E3C1C59D27DFDC /* Pods-TGKitXing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84109B4E5164439606D7AB5FE31CCDC2 /* Pods-TGKitXing_Tests-dummy.m */; };
+		4B747C94108062952382F3D53C2494DD /* TGLayoutSizeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D909441BFA714B0C6F934FBEB3592FB /* TGLayoutSizeClass.swift */; };
+		52088F6FF50FFA9CDA53F3EA4839FE77 /* TGDimeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD21A0BDBD563967822F868A676F6B28 /* TGDimeAdapter.swift */; };
+		612E81B294D518EC078436E0C31D06C1 /* TGLinearLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232BE0576AB892D7171DC4A03E51D15D /* TGLinearLayout.swift */; };
+		6429F30C9B1E92EE892768D04C22DC10 /* TGFloatLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8CF572F9439C04A287E2F38DE1B455 /* TGFloatLayout.swift */; };
 		6F10E67782E378F972855750D59DA3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C12B826C7DC052CDE67619354BEEF0B /* TGFrameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CEC3F4AAEEEC82010AD55DFFBA875 /* TGFrameLayout.swift */; };
+		8124F9CC45C2C06B26A74EFD457AEFD7 /* TGFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932A5BDA9DE86A69A44A3FCB065A896 /* TGFlowLayout.swift */; };
 		82172C01B6CA7DFC4BB2C1EEE40E461D /* Pods-TGKitXing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F95BA7C18618284CE367A2AB7C87A7B5 /* Pods-TGKitXing_Example-dummy.m */; };
+		8B68A68EB035CE9BC4C56E55C2CD5DDA /* TGBaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3A284A970D9776556D88345EBFF31 /* TGBaseLayout.swift */; };
 		8D0F23660E05CC037A4C4BD3D0AA57E3 /* Pods-TGKitXing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5A83A89F6890C631D5F97D4AEA54C8 /* Pods-TGKitXing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D2ABBBD7734990B0C62F44761D0E073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9DAADF706FFF7136268622FD4ED58174 /* TGKitXing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCBB5EEE9F6E47A9C0233F1CDDAB471 /* TGKitXing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FA2B2C222D0EA5B29546F4C3F039EB4 /* TGKitXing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5D84B534DE173E70BCC9712053BBE /* TGKitXing-dummy.m */; };
+		93B8248C50D7B7E1FC8908E5867535E0 /* TGPathLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F670FCCAD5946EA44ED736AA3EFBAD9 /* TGPathLayout.swift */; };
+		A70396BE090B99984BE7050D18B7EBAB /* TGLayoutSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E76DA5972617E93113E42A4D8258C /* TGLayoutSize.swift */; };
+		C8E80B6294130278B0619078D45973AA /* TGKitXing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EDA863F94DE05926B76173CA83A265 /* TGKitXing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4348A864844A4EE4A7914FBC1676D95 /* Pods-TGKitXing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA0BAE06011444CC3BE018043309CF1 /* Pods-TGKitXing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECEE3CFF47284F004D7A343C3E15688 /* TGRelativeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B685769A73E9E3EEE33FA5DC1DA63 /* TGRelativeLayout.swift */; };
+		F57BF8E9675E8A9DC1D7584A4086799B /* TGKitXing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E026449F1D4A19466BED0F83AD324E /* TGKitXing-dummy.m */; };
 		F677FDC88DCF5967590BFF626F718BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D1582ED72B8DCF69E1119D00818534DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91B67050FFB73D3F3753EA9FD0AFCBD1;
-			remoteInfo = TGKitXing;
-		};
-		F99BFCE1715A0DCDCAC0F71E73F15B8B /* PBXContainerItemProxy */ = {
+		1A73A8F6BD9B8754D2465E485C7882BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8CC27E2E744E568642C3F9D8F03DB542;
 			remoteInfo = "Pods-TGKitXing_Example";
 		};
+		C6144FDBA6448940B778629F0D74D67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B67050FFB73D3F3753EA9FD0AFCBD1;
+			remoteInfo = TGKitXing;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08D3A103F7E18815B6B25168469443A5 /* Pods-TGKitXing_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TGKitXing_Tests"; path = Pods_TGKitXing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		227DD584818CA1F4270E7A586C593C39 /* TGKitXing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TGKitXing-Info.plist"; sourceTree = "<group>"; };
-		27A29D681D9DE44BCA92F6B4FA1DF3E5 /* TGKitXing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGKitXing.release.xcconfig; sourceTree = "<group>"; };
+		08D3A103F7E18815B6B25168469443A5 /* Pods_TGKitXing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGKitXing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112CEC3F4AAEEEC82010AD55DFFBA875 /* TGFrameLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGFrameLayout.swift; path = TGKitXing/Classes/TGFrameLayout.swift; sourceTree = "<group>"; };
+		1F670FCCAD5946EA44ED736AA3EFBAD9 /* TGPathLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPathLayout.swift; path = TGKitXing/Classes/TGPathLayout.swift; sourceTree = "<group>"; };
+		232BE0576AB892D7171DC4A03E51D15D /* TGLinearLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGLinearLayout.swift; path = TGKitXing/Classes/TGLinearLayout.swift; sourceTree = "<group>"; };
 		29104F735A7386F58DC7223028E9D8A7 /* Pods-TGKitXing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGKitXing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2AC8D67383A884D0ABE658FF69BD9B66 /* Pods-TGKitXing_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TGKitXing_Example"; path = Pods_TGKitXing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		343D5DA2AD35ABA73B9AA14E5150CB25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2AC8D67383A884D0ABE658FF69BD9B66 /* Pods_TGKitXing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGKitXing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5A83A89F6890C631D5F97D4AEA54C8 /* Pods-TGKitXing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGKitXing_Example-umbrella.h"; sourceTree = "<group>"; };
-		4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TGKitXing; path = TGKitXing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D909441BFA714B0C6F934FBEB3592FB /* TGLayoutSizeClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGLayoutSizeClass.swift; path = TGKitXing/Classes/TGLayoutSizeClass.swift; sourceTree = "<group>"; };
+		4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGKitXing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC29EF926703864EDA9D7AEEF72B317 /* Pods-TGKitXing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TGKitXing_Example.modulemap"; sourceTree = "<group>"; };
-		4EF5D84B534DE173E70BCC9712053BBE /* TGKitXing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGKitXing-dummy.m"; sourceTree = "<group>"; };
 		588A02A0DAC6FC087F123CEE50484DBF /* Pods-TGKitXing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TGKitXing_Tests.modulemap"; sourceTree = "<group>"; };
 		644D00059D2EECE2F6F743D54AE6E4CC /* Pods-TGKitXing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGKitXing_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6657DEBB7F8CB0BE9FB9B076971EF3E4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TGKitXing/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		6BCBB5EEE9F6E47A9C0233F1CDDAB471 /* TGKitXing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGKitXing-umbrella.h"; sourceTree = "<group>"; };
+		67EDA863F94DE05926B76173CA83A265 /* TGKitXing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGKitXing-umbrella.h"; sourceTree = "<group>"; };
+		698B685769A73E9E3EEE33FA5DC1DA63 /* TGRelativeLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGRelativeLayout.swift; path = TGKitXing/Classes/TGRelativeLayout.swift; sourceTree = "<group>"; };
+		6DD3A284A970D9776556D88345EBFF31 /* TGBaseLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGBaseLayout.swift; path = TGKitXing/Classes/TGBaseLayout.swift; sourceTree = "<group>"; };
 		71C9E5AD2257A9490D1EB95087DAE786 /* Pods-TGKitXing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGKitXing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B03812DADED8CD53B1B29AEAF9BCA7C /* TGKitXing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TGKitXing.modulemap; sourceTree = "<group>"; };
-		8232D494D115CF1566DC5587C8C91B72 /* TGKitXing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGKitXing.debug.xcconfig; sourceTree = "<group>"; };
+		76C823B8B94B5AFA11A6BFEF2D468088 /* TGLayoutPos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGLayoutPos.swift; path = TGKitXing/Classes/TGLayoutPos.swift; sourceTree = "<group>"; };
+		7932A5BDA9DE86A69A44A3FCB065A896 /* TGFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGFlowLayout.swift; path = TGKitXing/Classes/TGFlowLayout.swift; sourceTree = "<group>"; };
+		7E8CF572F9439C04A287E2F38DE1B455 /* TGFloatLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGFloatLayout.swift; path = TGKitXing/Classes/TGFloatLayout.swift; sourceTree = "<group>"; };
 		82A89A8CBA618536227546C2C451F3B5 /* Pods-TGKitXing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGKitXing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84109B4E5164439606D7AB5FE31CCDC2 /* Pods-TGKitXing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGKitXing_Tests-dummy.m"; sourceTree = "<group>"; };
 		89CFC890133AE41B5DEA40A78EBB1408 /* Pods-TGKitXing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGKitXing_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8CE2C482007C2B40D6D572BF412D2EFF /* TGKitXing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGKitXing-prefix.pch"; sourceTree = "<group>"; };
 		95238BA11B2C7B261F3BEAE5B2DFA9D4 /* Pods-TGKitXing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGKitXing_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A397272BA41C2D2873BCEB3C3D472B47 /* Pods-TGKitXing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGKitXing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A8F33C5E3695CA40E2585CDA664B1D54 /* TGKitXing.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TGKitXing.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB89775155DCCC034BFB45B9D3ED2DFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B385F24D6531BE58F3B53F766EE54794 /* TGKitXing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGKitXing.release.xcconfig; sourceTree = "<group>"; };
+		B7E026449F1D4A19466BED0F83AD324E /* TGKitXing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGKitXing-dummy.m"; sourceTree = "<group>"; };
 		B9E93B135D3C82A5B9AFC51F45D22839 /* Pods-TGKitXing_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGKitXing_Example-Info.plist"; sourceTree = "<group>"; };
+		BD8E5A84E3929C575817335BAA375E51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BDA0BAE06011444CC3BE018043309CF1 /* Pods-TGKitXing_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGKitXing_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C55E76DA5972617E93113E42A4D8258C /* TGLayoutSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGLayoutSize.swift; path = TGKitXing/Classes/TGLayoutSize.swift; sourceTree = "<group>"; };
 		CBADD12E48DD2D9A5DF8F5EE28ADF1BB /* Pods-TGKitXing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGKitXing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1D728D4B7EAE33028445E65A998B385 /* TGKitXing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TGKitXing-Info.plist"; sourceTree = "<group>"; };
 		D2B78878593646A44B79928FAF9B0BD5 /* Pods-TGKitXing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGKitXing_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D8A51F097B3B9000C682EB4303280D06 /* TangramKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TangramKit.swift; path = TGKitXing/Classes/TangramKit.swift; sourceTree = "<group>"; };
 		DB2E34D9AB2C4CA4754BA079C25C7F73 /* Pods-TGKitXing_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGKitXing_Tests-Info.plist"; sourceTree = "<group>"; };
-		E077FCE1C2C5C14ECA2C98125865E262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE537C28D3719B44B530E3D7F1A44A52 /* TGTableLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGTableLayout.swift; path = TGKitXing/Classes/TGTableLayout.swift; sourceTree = "<group>"; };
+		EE6843B157FF70E923EFEE2C36659585 /* TGKitXing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TGKitXing.modulemap; sourceTree = "<group>"; };
+		F2E2A59F45222048C46E5C11AEB1EA4A /* TGKitXing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGKitXing-prefix.pch"; sourceTree = "<group>"; };
+		F3D2DA489BBB01FFC0940E44910E30CF /* TGKitXing.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TGKitXing.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F95BA7C18618284CE367A2AB7C87A7B5 /* Pods-TGKitXing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGKitXing_Example-dummy.m"; sourceTree = "<group>"; };
+		FC9D8AEE25BF200D0B26800E85064863 /* TGKitXing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGKitXing.debug.xcconfig; sourceTree = "<group>"; };
+		FD21A0BDBD563967822F868A676F6B28 /* TGDimeAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGDimeAdapter.swift; path = TGKitXing/Classes/TGDimeAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		437E1798C0711066173A7FA55FFB60A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D2ABBBD7734990B0C62F44761D0E073 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		601083DA6111CC72A5F91A2D396462A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,15 +113,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCDDFECAF9A4C1A73FAFD28983862923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E131D5E20900B5C0A0D21442AB880F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18A5FCEFAE90D440AA56BA66A39B520C /* TGKitXing */ = {
+		09A06B823A90ECC8B4BEC89E73BBCB69 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6657DEBB7F8CB0BE9FB9B076971EF3E4 /* ReplaceMe.swift */,
-				660F93E079A3CD0077B2B138A6F5298B /* Pod */,
-				97E49160E5BD8D67E8D0BAE23FAF60B0 /* Support Files */,
+				BD8E5A84E3929C575817335BAA375E51 /* LICENSE */,
+				AB89775155DCCC034BFB45B9D3ED2DFE /* README.md */,
+				F3D2DA489BBB01FFC0940E44910E30CF /* TGKitXing.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1B6A2720FADCE45FB2735234A0CD2AE1 /* TGKitXing */ = {
+			isa = PBXGroup;
+			children = (
+				D8A51F097B3B9000C682EB4303280D06 /* TangramKit.swift */,
+				6DD3A284A970D9776556D88345EBFF31 /* TGBaseLayout.swift */,
+				FD21A0BDBD563967822F868A676F6B28 /* TGDimeAdapter.swift */,
+				7E8CF572F9439C04A287E2F38DE1B455 /* TGFloatLayout.swift */,
+				7932A5BDA9DE86A69A44A3FCB065A896 /* TGFlowLayout.swift */,
+				112CEC3F4AAEEEC82010AD55DFFBA875 /* TGFrameLayout.swift */,
+				76C823B8B94B5AFA11A6BFEF2D468088 /* TGLayoutPos.swift */,
+				C55E76DA5972617E93113E42A4D8258C /* TGLayoutSize.swift */,
+				4D909441BFA714B0C6F934FBEB3592FB /* TGLayoutSizeClass.swift */,
+				232BE0576AB892D7171DC4A03E51D15D /* TGLinearLayout.swift */,
+				1F670FCCAD5946EA44ED736AA3EFBAD9 /* TGPathLayout.swift */,
+				698B685769A73E9E3EEE33FA5DC1DA63 /* TGRelativeLayout.swift */,
+				EE537C28D3719B44B530E3D7F1A44A52 /* TGTableLayout.swift */,
+				09A06B823A90ECC8B4BEC89E73BBCB69 /* Pod */,
+				8E3B89E35DDE656ADAF25DA3F6228F29 /* Support Files */,
 			);
 			name = TGKitXing;
 			path = ../..;
@@ -131,9 +177,9 @@
 		4A75FAC6608B4E9013B9CFFAFCD5207B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AC8D67383A884D0ABE658FF69BD9B66 /* Pods-TGKitXing_Example */,
-				08D3A103F7E18815B6B25168469443A5 /* Pods-TGKitXing_Tests */,
-				4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing */,
+				2AC8D67383A884D0ABE658FF69BD9B66 /* Pods_TGKitXing_Example.framework */,
+				08D3A103F7E18815B6B25168469443A5 /* Pods_TGKitXing_Tests.framework */,
+				4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,36 +208,34 @@
 			path = "Target Support Files/Pods-TGKitXing_Tests";
 			sourceTree = "<group>";
 		};
-		660F93E079A3CD0077B2B138A6F5298B /* Pod */ = {
+		8E3B89E35DDE656ADAF25DA3F6228F29 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E077FCE1C2C5C14ECA2C98125865E262 /* LICENSE */,
-				343D5DA2AD35ABA73B9AA14E5150CB25 /* README.md */,
-				A8F33C5E3695CA40E2585CDA664B1D54 /* TGKitXing.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		97E49160E5BD8D67E8D0BAE23FAF60B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B03812DADED8CD53B1B29AEAF9BCA7C /* TGKitXing.modulemap */,
-				4EF5D84B534DE173E70BCC9712053BBE /* TGKitXing-dummy.m */,
-				227DD584818CA1F4270E7A586C593C39 /* TGKitXing-Info.plist */,
-				8CE2C482007C2B40D6D572BF412D2EFF /* TGKitXing-prefix.pch */,
-				6BCBB5EEE9F6E47A9C0233F1CDDAB471 /* TGKitXing-umbrella.h */,
-				8232D494D115CF1566DC5587C8C91B72 /* TGKitXing.debug.xcconfig */,
-				27A29D681D9DE44BCA92F6B4FA1DF3E5 /* TGKitXing.release.xcconfig */,
+				EE6843B157FF70E923EFEE2C36659585 /* TGKitXing.modulemap */,
+				B7E026449F1D4A19466BED0F83AD324E /* TGKitXing-dummy.m */,
+				D1D728D4B7EAE33028445E65A998B385 /* TGKitXing-Info.plist */,
+				F2E2A59F45222048C46E5C11AEB1EA4A /* TGKitXing-prefix.pch */,
+				67EDA863F94DE05926B76173CA83A265 /* TGKitXing-umbrella.h */,
+				FC9D8AEE25BF200D0B26800E85064863 /* TGKitXing.debug.xcconfig */,
+				B385F24D6531BE58F3B53F766EE54794 /* TGKitXing.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TGKitXing";
+			sourceTree = "<group>";
+		};
+		8E57D32BB525BDB5AD16A0DB66589491 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6A2720FADCE45FB2735234A0CD2AE1 /* TGKitXing */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F1D7A8EB6BDA27E64E71F8A183BCCE26 /* Development Pods */,
+				8E57D32BB525BDB5AD16A0DB66589491 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4A75FAC6608B4E9013B9CFFAFCD5207B /* Products */,
 				E3EC92DF8853EB48DCEB603BB0A200C2 /* Targets Support Files */,
@@ -215,14 +259,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F1D7A8EB6BDA27E64E71F8A183BCCE26 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				18A5FCEFAE90D440AA56BA66A39B520C /* TGKitXing */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -242,11 +278,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD137F387E904B0738BEF9B43A185918 /* Headers */ = {
+		BF96A6398BF9402EFD20A2F271DFF363 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DAADF706FFF7136268622FD4ED58174 /* TGKitXing-umbrella.h in Headers */,
+				C8E80B6294130278B0619078D45973AA /* TGKitXing-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,21 +301,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA92213B51EECD8E3652DD08877E4269 /* PBXTargetDependency */,
+				28C28B2B6E4033850D71F0DF55B1848C /* PBXTargetDependency */,
 			);
 			name = "Pods-TGKitXing_Example";
 			productName = Pods_TGKitXing_Example;
-			productReference = 2AC8D67383A884D0ABE658FF69BD9B66 /* Pods-TGKitXing_Example */;
+			productReference = 2AC8D67383A884D0ABE658FF69BD9B66 /* Pods_TGKitXing_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91B67050FFB73D3F3753EA9FD0AFCBD1 /* TGKitXing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCE8ADF67ABCA44D494C93C25CDCB7D /* Build configuration list for PBXNativeTarget "TGKitXing" */;
+			buildConfigurationList = 1F2E2409E86519065CDA8A10D84B51BA /* Build configuration list for PBXNativeTarget "TGKitXing" */;
 			buildPhases = (
-				DD137F387E904B0738BEF9B43A185918 /* Headers */,
-				DFC08AF63C6A4A03CB393ADC82BCFD11 /* Sources */,
-				437E1798C0711066173A7FA55FFB60A2 /* Frameworks */,
-				F0E3C8B1B842A3FC6A6BFFFE8DBBEF01 /* Resources */,
+				BF96A6398BF9402EFD20A2F271DFF363 /* Headers */,
+				355142A509A538702F50A82089960EC3 /* Sources */,
+				DCDDFECAF9A4C1A73FAFD28983862923 /* Frameworks */,
+				C79684A11E1B1A6ECC8980BB2FD688CE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +323,7 @@
 			);
 			name = TGKitXing;
 			productName = TGKitXing;
-			productReference = 4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing */;
+			productReference = 4DF0ADA2C9B10261CE36A9ADB79BDA16 /* TGKitXing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0783E2C1E2C86C42F0CBE37719C8DD2 /* Pods-TGKitXing_Tests */ = {
@@ -302,11 +338,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				2657484FACF6E630C97B52B43B8501A3 /* PBXTargetDependency */,
+				34F575BA27A696E1ACB06FD5BF123E01 /* PBXTargetDependency */,
 			);
 			name = "Pods-TGKitXing_Tests";
 			productName = Pods_TGKitXing_Tests;
-			productReference = 08D3A103F7E18815B6B25168469443A5 /* Pods-TGKitXing_Tests */;
+			productReference = 08D3A103F7E18815B6B25168469443A5 /* Pods_TGKitXing_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +352,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					91B67050FFB73D3F3753EA9FD0AFCBD1 = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,6 +380,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C79684A11E1B1A6ECC8980BB2FD688CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3FD1F8ED4020CD04B629E07B789AC02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,16 +401,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0E3C8B1B842A3FC6A6BFFFE8DBBEF01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		355142A509A538702F50A82089960EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9906B85ACF133F8910D52305AC44F6 /* TangramKit.swift in Sources */,
+				8B68A68EB035CE9BC4C56E55C2CD5DDA /* TGBaseLayout.swift in Sources */,
+				52088F6FF50FFA9CDA53F3EA4839FE77 /* TGDimeAdapter.swift in Sources */,
+				6429F30C9B1E92EE892768D04C22DC10 /* TGFloatLayout.swift in Sources */,
+				8124F9CC45C2C06B26A74EFD457AEFD7 /* TGFlowLayout.swift in Sources */,
+				7C12B826C7DC052CDE67619354BEEF0B /* TGFrameLayout.swift in Sources */,
+				F57BF8E9675E8A9DC1D7584A4086799B /* TGKitXing-dummy.m in Sources */,
+				0AF9E1265994AEB7FF7F3499C666EBD9 /* TGLayoutPos.swift in Sources */,
+				A70396BE090B99984BE7050D18B7EBAB /* TGLayoutSize.swift in Sources */,
+				4B747C94108062952382F3D53C2494DD /* TGLayoutSizeClass.swift in Sources */,
+				612E81B294D518EC078436E0C31D06C1 /* TGLinearLayout.swift in Sources */,
+				93B8248C50D7B7E1FC8908E5867535E0 /* TGPathLayout.swift in Sources */,
+				EECEE3CFF47284F004D7A343C3E15688 /* TGRelativeLayout.swift in Sources */,
+				09BBB6DE07B8B1BD98010852958B2F0C /* TGTableLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9CB32A5E2AA2DF889E4BAB977ED14FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +441,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFC08AF63C6A4A03CB393ADC82BCFD11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE8A1EBDC80C5448E10B7CAC1E4D01F /* ReplaceMe.swift in Sources */,
-				9FA2B2C222D0EA5B29546F4C3F039EB4 /* TGKitXing-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2657484FACF6E630C97B52B43B8501A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TGKitXing_Example";
-			target = 8CC27E2E744E568642C3F9D8F03DB542 /* Pods-TGKitXing_Example */;
-			targetProxy = F99BFCE1715A0DCDCAC0F71E73F15B8B /* PBXContainerItemProxy */;
-		};
-		EA92213B51EECD8E3652DD08877E4269 /* PBXTargetDependency */ = {
+		28C28B2B6E4033850D71F0DF55B1848C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TGKitXing;
 			target = 91B67050FFB73D3F3753EA9FD0AFCBD1 /* TGKitXing */;
-			targetProxy = D1582ED72B8DCF69E1119D00818534DD /* PBXContainerItemProxy */;
+			targetProxy = C6144FDBA6448940B778629F0D74D67E /* PBXContainerItemProxy */;
+		};
+		34F575BA27A696E1ACB06FD5BF123E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TGKitXing_Example";
+			target = 8CC27E2E744E568642C3F9D8F03DB542 /* Pods-TGKitXing_Example */;
+			targetProxy = 1A73A8F6BD9B8754D2465E485C7882BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -422,7 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TGKitXing_Example/Pods-TGKitXing_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGKitXing_Example/Pods-TGKitXing_Example.modulemap";
@@ -440,9 +493,9 @@
 			};
 			name = Release;
 		};
-		2D5F76E69A17DB10228CAAE1FE9D0613 /* Release */ = {
+		2D49003324AB33D41E7C98BD5D472F3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27A29D681D9DE44BCA92F6B4FA1DF3E5 /* TGKitXing.release.xcconfig */;
+			baseConfigurationReference = B385F24D6531BE58F3B53F766EE54794 /* TGKitXing.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -456,7 +509,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TGKitXing/TGKitXing-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TGKitXing/TGKitXing-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TGKitXing/TGKitXing.modulemap";
 				PRODUCT_MODULE_NAME = TGKitXing;
@@ -464,7 +517,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,7 +541,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TGKitXing_Tests/Pods-TGKitXing_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGKitXing_Tests/Pods-TGKitXing_Tests.modulemap";
@@ -499,6 +552,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E1097004270CC88C3A9BC7D236FCFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9D8AEE25BF200D0B26800E85064863 /* TGKitXing.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TGKitXing/TGKitXing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGKitXing/TGKitXing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGKitXing/TGKitXing.modulemap";
+				PRODUCT_MODULE_NAME = TGKitXing;
+				PRODUCT_NAME = TGKitXing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -540,6 +624,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -555,48 +640,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		A320B997D14CF78073B1BECB942DF399 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8232D494D115CF1566DC5587C8C91B72 /* TGKitXing.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TGKitXing/TGKitXing-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TGKitXing/TGKitXing-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TGKitXing/TGKitXing.modulemap";
-				PRODUCT_MODULE_NAME = TGKitXing;
-				PRODUCT_NAME = TGKitXing;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AC439D90261C61F7B5FA6408BC5C9A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -614,7 +667,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TGKitXing_Example/Pods-TGKitXing_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGKitXing_Example/Pods-TGKitXing_Example.modulemap";
@@ -647,7 +700,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TGKitXing_Tests/Pods-TGKitXing_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGKitXing_Tests/Pods-TGKitXing_Tests.modulemap";
@@ -700,6 +753,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -718,7 +772,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -734,11 +788,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BCE8ADF67ABCA44D494C93C25CDCB7D /* Build configuration list for PBXNativeTarget "TGKitXing" */ = {
+		1F2E2409E86519065CDA8A10D84B51BA /* Build configuration list for PBXNativeTarget "TGKitXing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A320B997D14CF78073B1BECB942DF399 /* Debug */,
-				2D5F76E69A17DB10228CAAE1FE9D0613 /* Release */,
+				7E1097004270CC88C3A9BC7D236FCFB7 /* Debug */,
+				2D49003324AB33D41E7C98BD5D472F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

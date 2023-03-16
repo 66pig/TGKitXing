@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TGKitXing'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TGKitXing.'
+  s.summary          = 'TangramKit升级'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/“猪猪侠”/TGKitXing'
+  s.homepage         = 'https://github.com/66pig/TGKitXing'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '“猪猪侠”' => '21065238@qq.com' }
-  s.source           = { :git => 'https://github.com/“猪猪侠”/TGKitXing.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/66pig/TGKitXing.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'TGKitXing' => ['TGKitXing/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
