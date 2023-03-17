@@ -105,7 +105,7 @@ public enum TGSizeClassType
 /**
  * 定义SizeClass中普通视图的具有的布局属性接口
  */
-public protocol TGViewSizeClass:class
+public protocol TGViewSizeClass:AnyObject
 {
     var tg_top:TGLayoutPos{get}
     var tg_leading:TGLayoutPos{get}
